@@ -1,0 +1,19 @@
+.aside{
+        p{
+            padding-left: 15px;
+            font-weight: bold;
+        }
+        section{
+            div{
+                display: flex;
+                flex-wrap: wrap;
+                text-align: center;
+                justify-content: center;
+                img{
+                    height: 300px;
+                    width: 225px;
+                    margin:5px;
+                }
+            }
+        }
+    }

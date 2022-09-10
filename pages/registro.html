@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Colon Shoes" content="Zapatillas, Calzado, Registro, Register" >
+    <link rel="stylesheet" href="../scss/main.css" />
+    <link rel="icon" type= "image/jpg" href="../imagenes/Logo.jpeg" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,400;1,600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@600&display=swap" rel="stylesheet">
+    <title>Colon Shoes</title>
+</head>
+<body>
+    <header>
+        <div class="banner">
+          <h5>Envio gratis desde $15.000</h5>
+        </div>
+    
+        <div class="banner2">
+          <div class="row">
+              <div class="col-4" id="logo">
+                  <a href="../index.html">
+                  <img src="../imagenes/Logo.jpeg" class="rounded float-start" alt="" width="100px" height="100px">
+                  </a>
+              </div>
+              
+              <div class="container col-4" id="buscar">
+                  <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Ingresar" aria-label="Search" id="cuadroBotonBuscar">
+                      <button class="btn btn-outline-dark" type="submit" id="botonBuscar">Buscar</button>
+                  </form>
+              </div>
+    
+              <div class="col-4" id="icons">
+                  <a href = "../pages/registro.html"> 
+                  <svg xmlns="http://www.w3.org/2000/svg"  width="35" height="35" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16" id="iconRegistro" alt="Registro">
+                      <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/> 
+                  </svg>
+                  </a>
+    
+                  <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-suit-heart-fill" viewBox="0 0 16 16" id="iconFavoritos" alt="Favoritos">
+                      <path d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"/>
+                  </svg>
+    
+                  <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16" id="iconCarrito" alt="Carrito">
+                      <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                  </svg>
+              
+              </div> 
+          </div>
+        </div>
+    
+        <div class="navbar">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/hombre.html">Hombre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/mujer.html">Mujer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/ofertas.html">Ofertas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/registro.html">Registro</a>
+            </li>
+          </ul>
+        </div>               
+    </header>
+    <section class="registro">
+        <form>
+            <fieldset>
+                <legend>Datos Personales:</legend>
+                <label for="nombre">Nombres</label><br>
+                <input type="given-name" id="nombre" name="nombre" value=""><br><br>
+    
+                <label for="apellido">Apellido</label><br>
+                <input type="family-name" id="apellido" name="apellido" value=""><br><br>
+    
+                <label for="dni">DNI</label><br>
+                <input type="text" id="dni" name="dni" value=""><br><br>
+    
+                <label for="email">E-Mail</label><br>
+                <input type="email" id="email" name="email" value=""><br>
+    
+                <span>
+                    <input type="checkbox" id="" name="suscribirce">
+                    <label for="suscribirse">Suscribirse</label><br><br>
+                </span>
+                <label for="localidad">Localidad</label><br>
+                <input type="text" id="localidad" name="localidad" value=""><br><br>
+    
+                <label for="cp">Codigo Postal</label><br>
+                <input type="postal-code" id="cp" name="cp" value=""><br><br>
+    
+                <label for="direccion">Direccion</label><br>
+                <input type="street-address" id="direccion" name="direccion" value=""><br><br>
+    
+            </fieldset>
+    
+        </form>
+    
+        <form>
+            <fieldset>
+    
+                <legend>Tarjeta:</legend>
+                <label for="cardNumber">Numero</label><br>
+                <input type="cc-number" id="cardNumber" name="cardNumber" value=""><br><br>
+    
+                <label for="fecha">Expiracion</label><br>
+                <input type="cc-exp" id="fecha" name="fecha" value=""><br><br>
+    
+                <label for="nombreCompleto">Nombre Completo</label><br>
+                <input type="cc-name" id="nombreCompleto" name="nombreCompleto" value=""><br><br>
+    
+                <label for="cvc">CVC o CVV</label><br>
+                <select id="Tipo" name="cvc_cvv">
+                    <option value="cvc">CVC </option>
+                    <option value="cvv">CVV</option>
+                </select> 
+                
+                <input type="cc-csc" id="cvc" name="cvc" value=""><br><br>
+    
+                <label for="tipo_Tarjeta">Tipo de tarjeta</label>
+    
+                <select id="tipo_Tarjeta" name="tipo_Tarjeta">
+                    <option value="credito">Credito </option>
+                    <option value="debito">Debito</option>
+                    <option value="prepaga">Prepaga</option>
+                </select> 
+    
+                <br><br>
+    
+                <input type="submit" value="Confirmar">
+                <br><br>
+    
+            </fieldset>
+        </form>
+    </section>
+
+
+    <div class="footer">
+        <footer>
+            <ul>
+                <li><a href="#" class="footerTexto">Terminos y condiciones</a></li>
+                <li><a href="#" class="footerTexto">Ayuda</a></li>
+                <li><a href="#" class="footerTexto">Devoluciones</a></li>
+                <li><a href="#" class="footerTexto">Contacto</a></li>
+            </ul>
+        </footer>
+    </div>
+
+</body>
+</html>

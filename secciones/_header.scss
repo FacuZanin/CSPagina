@@ -1,0 +1,54 @@
+header{
+    .banner{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        height: 35px;
+        font-weight: bold;
+        font-family: 'Antonio', sans-serif;
+    }
+    .banner2{
+        background-color: black;
+            #icons{
+                color: #ffbd59;
+                #iconRegistro{
+                    padding: 3px;
+                }
+                #iconFavoritos{
+                    padding: 3px;
+                }
+                #iconCarrito{
+                    padding: 3px;
+                }
+            }
+    }
+    #buscar, #logo, #icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }    
+    #botonBuscar{
+        color: #ffbd59;
+    }  
+    .navbar{
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        height: 55px;
+        position: sticky;
+        top: 0px;
+        font-weight: bold;
+        ul{
+            li{
+                a{  
+                    text-decoration: none;
+                    color: black;
+                    &:hover{
+                        color: #ffbd59;
+                        transform: scale(1.05);
+                    }
+                }
+            }
+        }
+    }
+}

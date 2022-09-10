@@ -1,0 +1,24 @@
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Antonio', sans-serif;
+    height: 80px;
+    width: 100vw;
+    ul {
+        display: flex;
+        justify-content: space-around;
+    }
+    li{
+        margin: 5px;
+        list-style: none;
+    }
+    a{
+        color: #ffbd59;
+        text-decoration: none;
+        &:hover{
+            color: #ffbd59;
+        }
+    }
+}
